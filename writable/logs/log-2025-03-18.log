@@ -1,0 +1,28 @@
+DEBUG - 2025-03-18 11:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-18 11:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-18 11:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-18 11:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-18 11:44:27 --> ErrorException: Undefined array key "id_kecamatan"
+[Method: POST, Route: Sekolah/Kecamatan]
+in APPPATH\Controllers\Sekolah.php on line 64.
+ 1 APPPATH\Controllers\Sekolah.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kecamatan"', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Controllers\\Sekolah.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Kecamatan()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-18 11:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-18 11:47:11 --> ErrorException: Undefined array key "id_kecamatan"
+[Method: POST, Route: Sekolah/Kecamatan]
+in APPPATH\Controllers\Sekolah.php on line 64.
+ 1 APPPATH\Controllers\Sekolah.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kecamatan"', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Controllers\\Sekolah.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Kecamatan()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-18 11:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-18 11:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-18 12:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

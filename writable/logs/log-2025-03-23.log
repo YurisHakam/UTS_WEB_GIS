@@ -1,0 +1,1152 @@
+DEBUG - 2025-03-23 11:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-23 11:47:14 --> ErrorException: Undefined variable $jmlsekolah
+[Method: GET, Route: Admin]
+in APPPATH\Views\v_dashboard.php on line 6.
+ 1 APPPATH\Views\v_dashboard.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jmlsekolah', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_dashboard.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Admin.php(28): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 11:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-23 11:48:30 --> ErrorException: Undefined variable $jmlsekolah
+[Method: GET, Route: Admin]
+in APPPATH\Views\v_dashboard.php on line 6.
+ 1 APPPATH\Views\v_dashboard.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jmlsekolah', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_dashboard.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Admin.php(28): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 11:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-23 11:49:39 --> ErrorException: Undefined variable $jmlsekolah
+[Method: GET, Route: Admin]
+in APPPATH\Views\v_dashboard.php on line 6.
+ 1 APPPATH\Views\v_dashboard.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jmlsekolah', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_dashboard.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Admin.php(28): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 11:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-23 11:50:05 --> ErrorException: Undefined variable $jmlwilayah
+[Method: GET, Route: Admin]
+in APPPATH\Views\v_dashboard.php on line 21.
+ 1 APPPATH\Views\v_dashboard.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jmlwilayah', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_dashboard.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Admin.php(28): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 11:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 11:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-23 11:57:13 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: Admin]
+in APPPATH\Views\v_dashboard.php on line 33.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 3 APPPATH\Views\v_template_back_end.php(215): view('v_dashboard')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 7 APPPATH\Controllers\Admin.php(33): view('v_template_back_end', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 12:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 12:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 12:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 12:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 12:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-23 13:25:56 --> Error: Array callback must have exactly two elements
+[Method: GET, Route: /]
+in APPPATH\Views\v_home.php on line 56.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(153): view('v_home')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Home.php(31): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 13:25:56 --> Error: Array callback must have exactly two elements
+[Method: GET, Route: /]
+in APPPATH\Views\v_home.php on line 56.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Views\v_template_front_end.php(153): view('v_home')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 8 APPPATH\Controllers\Home.php(31): view('v_template_front_end', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 13:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-23 13:36:46 --> ErrorException: Undefined array key "marker"
+[Method: GET, Route: /]
+in APPPATH\Views\v_home.php on line 56.
+ 1 APPPATH\Views\v_home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "marker"', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_home.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_home', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(153): view('v_home')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Home.php(31): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 13:38:03 --> ParseError: Unclosed '{' on line 55
+[Method: GET, Route: /]
+in APPPATH\Views\v_home.php on line 72.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_home', [], true)
+ 3 APPPATH\Views\v_template_front_end.php(153): view('v_home')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 7 APPPATH\Controllers\Home.php(31): view('v_template_front_end', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 13:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 13:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 14:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-23 14:55:31 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(44): CodeIgniter\Model->__call('Detail', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 14:56:02 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: Home/Wilayah/1]
+in APPPATH\Views\v_template_front_end.php on line 53.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('v_template_front_end', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 14:59:04 --> ErrorException: Undefined variable $jenjang
+[Method: GET, Route: Home/Wilayah/1]
+in APPPATH\Views\v_template_front_end.php on line 61.
+ 1 APPPATH\Views\v_template_front_end.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenjang', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php', 61)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('v_template_front_end', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:00:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_detai_wilayah.php"
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_detai_wilayah.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_detai_wilayah', [], true)
+ 3 APPPATH\Views\v_template_front_end.php(127): view('v_detai_wilayah')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 7 APPPATH\Controllers\Home.php(48): view('v_template_front_end', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:05:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_detai_wilayah.php"
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_detai_wilayah.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_detai_wilayah', [], true)
+ 3 APPPATH\Views\v_template_front_end.php(127): view('v_detai_wilayah')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 7 APPPATH\Controllers\Home.php(48): view('v_template_front_end', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:07:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_detai_wilayah.php"
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_detai_wilayah.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_detai_wilayah', [], true)
+ 3 APPPATH\Views\v_template_front_end.php(127): view('v_detai_wilayah')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 7 APPPATH\Controllers\Home.php(48): view('v_template_front_end', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:08:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_detai_wilayah.php"
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_detai_wilayah.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_detai_wilayah', [], true)
+ 3 APPPATH\Views\v_template_front_end.php(127): view('v_detai_wilayah')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 7 APPPATH\Controllers\Home.php(48): view('v_template_front_end', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:10:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_detai_wilayah.php"
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_detai_wilayah.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_detai_wilayah', [], true)
+ 3 APPPATH\Views\v_template_front_end.php(127): view('v_detai_wilayah')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 7 APPPATH\Controllers\Home.php(48): view('v_template_front_end', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 15:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-23 15:11:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_detai_wilayah.php"
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_detai_wilayah.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_detai_wilayah', [], true)
+ 3 APPPATH\Views\v_template_front_end.php(127): view('v_detai_wilayah')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 7 APPPATH\Controllers\Home.php(48): view('v_template_front_end', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:11:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_detai_wilayah.php"
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_detai_wilayah.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_detai_wilayah', [], true)
+ 3 APPPATH\Views\v_template_front_end.php(127): view('v_detai_wilayah')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 7 APPPATH\Controllers\Home.php(48): view('v_template_front_end', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:15:17 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: Home/Wilayah/index3.html]
+in APPPATH\Views\v_detail_wilayah.php on line 54.
+ 1 APPPATH\Views\v_detail_wilayah.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_detail_wilayah.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_detail_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_detail_wilayah', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(127): view('v_detail_wilayah')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Home.php(48): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('index3.html')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-23 15:19:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4 in C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4\app\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4\app\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('17')
+#6 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(933): App\Controllers\Home->Wilayah('17')
+#7 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-23 15:19:46 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+[Method: GET, Route: Home/Wilayah/17]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 2 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('17')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('17')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:19:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 4 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('17')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('17')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:19:46 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 5 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('17')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('17')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-23 15:19:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4 in C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4\app\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4\app\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('15')
+#6 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(933): App\Controllers\Home->Wilayah('15')
+#7 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-23 15:19:58 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+[Method: GET, Route: Home/Wilayah/15]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 2 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('15')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('15')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:19:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 4 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('15')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('15')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:19:58 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 5 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('15')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('15')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 15:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-23 15:20:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4 in C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4\app\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4\app\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+#6 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+#7 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-23 15:20:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 2 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:20:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 4 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:20:12 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 5 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-23 15:23:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4 in C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4\app\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4\app\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+#6 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+#7 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-23 15:23:38 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 2 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:23:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 4 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:23:38 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 5 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-23 15:25:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4 in C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4\app\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4\app\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+#6 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+#7 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-23 15:25:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 2 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:25:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 4 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:25:25 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 5 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-23 15:28:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4 in C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4\app\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4\app\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+#6 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+#7 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-23 15:28:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 2 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:28:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 4 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:28:57 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 5 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-23 15:29:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4 in C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4\app\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4\app\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+#6 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+#7 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-23 15:29:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 2 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:29:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 4 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:29:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 5 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-23 15:32:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4 in C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4\app\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4\app\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+#6 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+#7 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-23 15:32:53 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+[Method: GET, Route: Home/Wilayah/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 2 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:32:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 4 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:32:53 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', $id_wilayah' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_wilayah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+WHERE id_wilayah, $id_wilayah', [], false)
+ 5 APPPATH\Models\ModelSekolah.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(47): App\Models\ModelSekolah->AllDataPerWilayah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 15:34:23 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: Home/Wilayah/index3.html]
+in APPPATH\Views\v_detail_wilayah.php on line 54.
+ 1 APPPATH\Views\v_detail_wilayah.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_detail_wilayah.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_detail_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_detail_wilayah', [], true)
+ 5 APPPATH\Views\v_template_front_end.php(127): view('v_detail_wilayah')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_front_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 9 APPPATH\Controllers\Home.php(49): view('v_template_front_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Wilayah('index3.html')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-23 15:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 15:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 18:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 19:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-23 20:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,512 @@
+DEBUG - 2025-03-20 09:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 09:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 09:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 09:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 09:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 09:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 10:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-20 10:47:33 --> ErrorException: Undefined variable $web
+[Method: GET, Route: Sekolah/Detail/1]
+in APPPATH\Views\sekolah\v_detail.php on line 80.
+ 1 APPPATH\Views\sekolah\v_detail.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('sekolah/v_detail', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('sekolah/v_detail')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Sekolah.php(318): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Detail('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-20 10:54:06 --> ErrorException: Undefined variable $web
+[Method: GET, Route: Sekolah/Detail/1]
+in APPPATH\Views\sekolah\v_detail.php on line 80.
+ 1 APPPATH\Views\sekolah\v_detail.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('sekolah/v_detail', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('sekolah/v_detail')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Sekolah.php(318): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Detail('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-20 10:54:13 --> ErrorException: Undefined variable $web
+[Method: GET, Route: Sekolah/Detail/1]
+in APPPATH\Views\sekolah\v_detail.php on line 80.
+ 1 APPPATH\Views\sekolah\v_detail.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('sekolah/v_detail', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('sekolah/v_detail')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Sekolah.php(318): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Detail('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-20 10:54:46 --> ErrorException: Undefined variable $web
+[Method: GET, Route: Sekolah/Detail/1]
+in APPPATH\Views\sekolah\v_detail.php on line 80.
+ 1 APPPATH\Views\sekolah\v_detail.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('sekolah/v_detail', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('sekolah/v_detail')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Sekolah.php(318): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Detail('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-20 12:05:43 --> ErrorException: Undefined array key "nama_provinsi"
+[Method: GET, Route: Sekolah/Detail/1]
+in APPPATH\Views\sekolah\v_detail.php on line 43.
+ 1 APPPATH\Views\sekolah\v_detail.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_provinsi"', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\sekolah\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('sekolah/v_detail', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('sekolah/v_detail')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Sekolah.php(319): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Detail('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-20 12:09:30 --> mysqli_sql_exception: Unknown column 'tbl_wilayah.id_kabupaten' in 'on clause' in C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gis-sekolah-ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4\app\Models\ModelSekolah.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4\app\Controllers\Sekolah.php(316): App\Models\ModelSekolah->DetailData('1')
+#6 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(933): App\Controllers\Sekolah->Detail('1')
+#7 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#8 C:\laragon\www\gis-sekolah-ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-20 12:09:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_wilayah.id_kabupaten' in 'on clause'
+[Method: GET, Route: Sekolah/Detail/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+LEFT JOIN `tbl_provinsi` ON `tbl_provinsi`.`id_provinsi` = `tbl_sekolah`.`id_provinsi`
+LEFT JOIN `tbl_kabupaten` ON `tbl_kabupaten`.`id_kabupaten` = `tbl_sekolah`.`id_kabupaten`
+LEFT JOIN `tbl_kecamatan` ON `tbl_kecamatan`.`id_kecamatan` = `tbl_sekolah`.`id_kecamatan`
+LEFT JOIN `tbl_wilayah` ON `tbl_wilayah`.`id_kabupaten` = `tbl_sekolah`.`id_wilayah`
+WHERE `id_sekolah` = :id_sekolah:', [...], false)
+ 2 APPPATH\Models\ModelSekolah.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Sekolah.php(316): App\Models\ModelSekolah->DetailData('1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-20 12:09:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_wilayah.id_kabupaten' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+LEFT JOIN `tbl_provinsi` ON `tbl_provinsi`.`id_provinsi` = `tbl_sekolah`.`id_provinsi`
+LEFT JOIN `tbl_kabupaten` ON `tbl_kabupaten`.`id_kabupaten` = `tbl_sekolah`.`id_kabupaten`
+LEFT JOIN `tbl_kecamatan` ON `tbl_kecamatan`.`id_kecamatan` = `tbl_sekolah`.`id_kecamatan`
+LEFT JOIN `tbl_wilayah` ON `tbl_wilayah`.`id_kabupaten` = `tbl_sekolah`.`id_wilayah`
+WHERE `id_sekolah` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+LEFT JOIN `tbl_provinsi` ON `tbl_provinsi`.`id_provinsi` = `tbl_sekolah`.`id_provinsi`
+LEFT JOIN `tbl_kabupaten` ON `tbl_kabupaten`.`id_kabupaten` = `tbl_sekolah`.`id_kabupaten`
+LEFT JOIN `tbl_kecamatan` ON `tbl_kecamatan`.`id_kecamatan` = `tbl_sekolah`.`id_kecamatan`
+LEFT JOIN `tbl_wilayah` ON `tbl_wilayah`.`id_kabupaten` = `tbl_sekolah`.`id_wilayah`
+WHERE `id_sekolah` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+LEFT JOIN `tbl_provinsi` ON `tbl_provinsi`.`id_provinsi` = `tbl_sekolah`.`id_provinsi`
+LEFT JOIN `tbl_kabupaten` ON `tbl_kabupaten`.`id_kabupaten` = `tbl_sekolah`.`id_kabupaten`
+LEFT JOIN `tbl_kecamatan` ON `tbl_kecamatan`.`id_kecamatan` = `tbl_sekolah`.`id_kecamatan`
+LEFT JOIN `tbl_wilayah` ON `tbl_wilayah`.`id_kabupaten` = `tbl_sekolah`.`id_wilayah`
+WHERE `id_sekolah` = :id_sekolah:', [...], false)
+ 4 APPPATH\Models\ModelSekolah.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Sekolah.php(316): App\Models\ModelSekolah->DetailData('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-20 12:09:30 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_wilayah.id_kabupaten' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+LEFT JOIN `tbl_provinsi` ON `tbl_provinsi`.`id_provinsi` = `tbl_sekolah`.`id_provinsi`
+LEFT JOIN `tbl_kabupaten` ON `tbl_kabupaten`.`id_kabupaten` = `tbl_sekolah`.`id_kabupaten`
+LEFT JOIN `tbl_kecamatan` ON `tbl_kecamatan`.`id_kecamatan` = `tbl_sekolah`.`id_kecamatan`
+LEFT JOIN `tbl_wilayah` ON `tbl_wilayah`.`id_kabupaten` = `tbl_sekolah`.`id_wilayah`
+WHERE `id_sekolah` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+LEFT JOIN `tbl_provinsi` ON `tbl_provinsi`.`id_provinsi` = `tbl_sekolah`.`id_provinsi`
+LEFT JOIN `tbl_kabupaten` ON `tbl_kabupaten`.`id_kabupaten` = `tbl_sekolah`.`id_kabupaten`
+LEFT JOIN `tbl_kecamatan` ON `tbl_kecamatan`.`id_kecamatan` = `tbl_sekolah`.`id_kecamatan`
+LEFT JOIN `tbl_wilayah` ON `tbl_wilayah`.`id_kabupaten` = `tbl_sekolah`.`id_wilayah`
+WHERE `id_sekolah` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+LEFT JOIN `tbl_provinsi` ON `tbl_provinsi`.`id_provinsi` = `tbl_sekolah`.`id_provinsi`
+LEFT JOIN `tbl_kabupaten` ON `tbl_kabupaten`.`id_kabupaten` = `tbl_sekolah`.`id_kabupaten`
+LEFT JOIN `tbl_kecamatan` ON `tbl_kecamatan`.`id_kecamatan` = `tbl_sekolah`.`id_kecamatan`
+LEFT JOIN `tbl_wilayah` ON `tbl_wilayah`.`id_kabupaten` = `tbl_sekolah`.`id_wilayah`
+WHERE `id_sekolah` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sekolah`
+LEFT JOIN `tbl_jenjang` ON `tbl_jenjang`.`id_jenjang` = `tbl_sekolah`.`id_jenjang`
+LEFT JOIN `tbl_provinsi` ON `tbl_provinsi`.`id_provinsi` = `tbl_sekolah`.`id_provinsi`
+LEFT JOIN `tbl_kabupaten` ON `tbl_kabupaten`.`id_kabupaten` = `tbl_sekolah`.`id_kabupaten`
+LEFT JOIN `tbl_kecamatan` ON `tbl_kecamatan`.`id_kecamatan` = `tbl_sekolah`.`id_kecamatan`
+LEFT JOIN `tbl_wilayah` ON `tbl_wilayah`.`id_kabupaten` = `tbl_sekolah`.`id_wilayah`
+WHERE `id_sekolah` = :id_sekolah:', [...], false)
+ 5 APPPATH\Models\ModelSekolah.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Sekolah.php(316): App\Models\ModelSekolah->DetailData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->Detail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 12:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 12:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 12:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 13:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 13:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 13:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 13:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 13:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-20 13:21:48 --> ErrorException: Undefined property: App\Controllers\User::$ModelUser
+[Method: GET, Route: User]
+in APPPATH\Controllers\User.php on line 16.
+ 1 APPPATH\Controllers\User.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$ModelUser', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Controllers\\User.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-20 13:22:37 --> Error: Call to a member function AllData() on null
+[Method: GET, Route: User]
+in APPPATH\Controllers\User.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 14:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-20 14:03:18 --> ErrorException: Undefined variable $sekolah
+[Method: GET, Route: User]
+in APPPATH\Views\user\v_index.php on line 59.
+ 1 APPPATH\Views\user\v_index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sekolah', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\user\\v_index.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\user\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('user/v_index', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('user/v_index')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\User.php(26): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 14:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 14:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-20 15:15:39 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: User/UpdateData/2]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\User.php(153): CodeIgniter\HTTP\Files\UploadedFile->move('foto/', '1742482080_c00db7c1e7c305050cb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->UpdateData('2')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 15:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-20 15:17:09 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: User/UpdateData/2]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\User.php(154): CodeIgniter\HTTP\Files\UploadedFile->move('foto/', '1742482080_c00db7c1e7c305050cb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->UpdateData('2')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 15:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-20 15:46:31 --> TypeError: CodeIgniter\Config\Services::validation(): Argument #1 ($config) must be of type ?Config\Validation, string given, called in C:\laragon\www\gis-sekolah-ci4\system\Config\BaseService.php on line 321
+[Method: GET, Route: User/Input]
+in SYSTEMPATH\Config\Services.php on line 827.
+ 1 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::validation('errors')
+ 2 APPPATH\Views\user\v_input.php(13): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\user\\v_input.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('user/v_input', [], true)
+ 6 APPPATH\Views\v_template_back_end.php(215): view('user/v_input')
+ 7 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 8 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+10 APPPATH\Controllers\User.php(36): view('v_template_back_end', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->Input()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 15:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 15:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 16:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 16:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 16:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 16:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 16:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 17:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 17:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 17:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-20 17:54:13 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\wilayah\v_index.php on line 123.
+ 1 APPPATH\Views\wilayah\v_index.php(123): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\wilayah\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('wilayah/v_index', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('wilayah/v_index')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(30): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 17:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-20 18:09:36 --> ErrorException: Array to string conversion
+[Method: GET, Route: Wilayah]
+in APPPATH\Views\wilayah\v_index.php on line 124.
+ 1 APPPATH\Views\wilayah\v_index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\wilayah\\v_index.php', 124)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\wilayah\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('wilayah/v_index', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('wilayah/v_index')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(30): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 18:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-20 18:10:31 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\wilayah\v_index.php on line 124.
+ 1 APPPATH\Views\wilayah\v_index.php(124): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\wilayah\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('wilayah/v_index', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('wilayah/v_index')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(30): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-20 18:10:31 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: Wilayah]
+in APPPATH\Views\wilayah\v_index.php on line 124.
+ 1 APPPATH\Views\wilayah\v_index.php(124): json_decode([...], true)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\wilayah\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('wilayah/v_index', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('wilayah/v_index')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(30): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 18:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-20 18:11:33 --> ErrorException: Array to string conversion
+[Method: GET, Route: Wilayah]
+in APPPATH\Views\wilayah\v_index.php on line 124.
+ 1 APPPATH\Views\wilayah\v_index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\wilayah\\v_index.php', 124)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\wilayah\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('wilayah/v_index', [], true)
+ 5 APPPATH\Views\v_template_back_end.php(215): view('wilayah/v_index')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\gis-sekolah-ci4\\app\\Views\\v_template_back_end.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template_back_end', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(30): view('v_template_back_end', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-20 18:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 18:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-20 19:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

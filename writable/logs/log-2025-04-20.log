@@ -1,0 +1,58 @@
+DEBUG - 2025-04-20 13:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 13:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 13:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 13:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 13:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 13:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 13:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-20 14:09:16 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_gis_sekolah_ci4' in C:\laragon\www\gis-sekolah-ci4-patih\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4-patih\system\Database\MySQLi\Connection.php(202): mysqli->real_connect('localhost', 'root', '', 'db_gis_sekolah_...', 3306, '', 0)
+#1 C:\laragon\www\gis-sekolah-ci4-patih\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\gis-sekolah-ci4-patih\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\gis-sekolah-ci4-patih\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gis-sekolah-ci4-patih\app\Models\ModelSetting.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gis-sekolah-ci4-patih\app\Controllers\Home.php(30): App\Models\ModelSetting->DataWeb()
+#6 C:\laragon\www\gis-sekolah-ci4-patih\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\laragon\www\gis-sekolah-ci4-patih\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\gis-sekolah-ci4-patih\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gis-sekolah-ci4-patih\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gis-sekolah-ci4-patih\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gis-sekolah-ci4-patih\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_gis_sekolah_ci4' in C:\laragon\www\gis-sekolah-ci4-patih\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\laragon\www\gis-sekolah-ci4-patih\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\gis-sekolah-ci4-patih\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\gis-sekolah-ci4-patih\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\gis-sekolah-ci4-patih\app\Models\ModelSetting.php(13): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\gis-sekolah-ci4-patih\app\Controllers\Home.php(30): App\Models\ModelSetting->DataWeb()
+#5 C:\laragon\www\gis-sekolah-ci4-patih\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#6 C:\laragon\www\gis-sekolah-ci4-patih\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\gis-sekolah-ci4-patih\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\gis-sekolah-ci4-patih\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\gis-sekolah-ci4-patih\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\gis-sekolah-ci4-patih\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-20 14:09:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_gis_sekolah_ci4'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_setting`
+WHERE `id` = :id:', [...], false)
+ 3 APPPATH\Models\ModelSetting.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(30): App\Models\ModelSetting->DataWeb()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-20 14:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 14:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 14:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 14:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 14:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
